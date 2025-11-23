@@ -78,14 +78,14 @@ const Footer = () => {
               </div>
               <div className="footer__contact-item">
                 <span className="footer__contact-label">Téléphone</span>
-                <a href="tel:+33123456789" className="footer__contact-value">
-                  +33 1 23 45 67 89
+                <a href="tel:+213553666904" className="footer__contact-value">
+                  +213 553 66 69 04
                 </a>
               </div>
               <div className="footer__contact-item">
                 <span className="footer__contact-label">Adresse</span>
                 <span className="footer__contact-value">
-                  Paris, France
+                  Alger, Batna
                 </span>
               </div>
             </div>

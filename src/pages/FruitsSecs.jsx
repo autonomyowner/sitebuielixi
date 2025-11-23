@@ -13,15 +13,6 @@ const FruitsSecs = () => {
   const products = [
     {
       id: 1,
-      name: "Dattes Premium",
-      description: "Sélection de dattes de qualité supérieure, moelleuses et naturellement sucrées. Parfaites pour les desserts, le Ramadan ou une collation saine quotidienne.",
-      image: "/Fruits Séchés.jpg",
-      formats: ["250g", "500g", "1kg"],
-      accent: "#8B4513",
-      tag: "Premium"
-    },
-    {
-      id: 2,
       name: "Figues Séchées",
       description: "Figues séchées naturellement, riches en fibres et en minéraux. Un délice méditerranéen pour accompagner vos plats ou déguster seul.",
       image: "/Fruits Séchés.jpg",
@@ -30,19 +21,10 @@ const FruitsSecs = () => {
       tag: "Naturel"
     },
     {
-      id: 3,
-      name: "Amandes & Noix",
-      description: "Assortiment d'amandes et de noix de qualité, sources d'énergie et de bons gras. Idéal pour les sportifs et les gourmands soucieux de leur santé.",
-      image: "/Fruits Séchés.jpg",
-      formats: ["150g", "300g", "600g"],
-      accent: "#C9A962",
-      tag: "Énergie"
-    },
-    {
-      id: 4,
+      id: 2,
       name: "Mix Ramadan",
       description: "Assortiment spécial composé pour les soirées du Ramadan. Un mélange équilibré de fruits secs et de noix pour rompre le jeûne en douceur.",
-      image: "/Fruits Séchés.jpg",
+      image: "/fakya.jpg",
       formats: ["500g", "1kg", "2kg"],
       accent: "#4A7C59",
       tag: "Spécial"

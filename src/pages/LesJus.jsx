@@ -29,7 +29,7 @@ const LesJus = () => {
       id: 2,
       name: "Jus Glucose Stability",
       description: "Formulé spécialement pour les personnes diabétiques. Un équilibre parfait entre goût et bienfaits thérapeutiques pour une glycémie stable.",
-      image: "/Jus.jpg",
+      image: "/Jus 6.jpg",
       volumes: [
         { size: "330 ml", price: "100 DA" },
         { size: "1 L", price: "300 DA" }
@@ -54,7 +54,7 @@ const LesJus = () => {
       id: 4,
       name: "Jus Youth Elixir",
       description: "L'élixir de jeunesse à base de grenade et plantes médicinales. Favorise une peau saine, apporte énergie aux sportifs et complète l'alimentation des mères et enfants.",
-      image: "/Jus.jpg",
+      image: "/Jus 6.jpg",
       volumes: [
         { size: "330 ml", price: "150 DA" },
         { size: "1 L", price: "300 DA" },
@@ -122,10 +122,12 @@ const LesJus = () => {
                 }}
               >
                 <div className="product-card__image-container">
-                  <div className="product-card__image-placeholder">
-                    {/* Image placeholder - add your image here */}
-                    <div className="product-card__image-overlay"></div>
-                  </div>
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="product-card__image"
+                  />
+                  <div className="product-card__image-overlay"></div>
                   <span className="product-card__tag">{product.tag}</span>
                   <div className="product-card__shine"></div>
                 </div>
