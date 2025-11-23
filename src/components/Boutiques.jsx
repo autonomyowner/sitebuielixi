@@ -86,7 +86,7 @@ const Boutiques = () => {
       description: "Découvrez notre papier de grenade artisanal, une innovation unique alliant tradition et modernité. Un produit écologique et naturel issu de notre expertise en transformation de grenade.",
       image: "/Papier Grenade.jpg",
       accent: "#6B705C",
-      link: null,
+      link: "/papier-grenade",
     },
     {
       id: 8,

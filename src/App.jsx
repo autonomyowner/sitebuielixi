@@ -10,6 +10,7 @@ import Cosmetiques from './pages/Cosmetiques'
 import HuilesEssentielles from './pages/HuilesEssentielles'
 import FruitsSecs from './pages/FruitsSecs'
 import Confiserie from './pages/Confiserie'
+import PapierGrenade from './pages/PapierGrenade'
 
 function HomePage() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/huiles-essentielles" element={<HuilesEssentielles />} />
           <Route path="/fruits-secs" element={<FruitsSecs />} />
           <Route path="/confiserie" element={<Confiserie />} />
+          <Route path="/papier-grenade" element={<PapierGrenade />} />
         </Routes>
       </main>
 
