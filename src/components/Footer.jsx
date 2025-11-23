@@ -126,6 +126,14 @@ const Footer = () => {
             <a href="#" className="footer__legal-link">CGV</a>
           </div>
         </div>
+
+        {/* Developer Signature */}
+        <div className="footer__signature">
+          <a href="https://www.sitedz.store" target="_blank" rel="noopener noreferrer" className="footer__dev-link">
+            <span className="footer__dev-crafted">Crafted by</span>
+            <span className="footer__dev-name">Azeddine</span>
+          </a>
+        </div>
       </div>
 
       {/* Decorative Elements */}

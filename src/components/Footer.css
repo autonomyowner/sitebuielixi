@@ -267,6 +267,65 @@ a.footer__contact-value:hover {
   opacity: 0.5;
 }
 
+/* Developer Signature */
+.footer__signature {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  margin-top: 1rem;
+  border-top: 1px solid rgba(201, 169, 98, 0.1);
+}
+
+.footer__dev-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+
+.footer__dev-link:hover {
+  transform: translateY(-2px);
+}
+
+.footer__dev-crafted {
+  color: var(--color-text-muted);
+  font-weight: 300;
+}
+
+.footer__dev-heart {
+  color: #e25555;
+  font-size: 1rem;
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+.footer__dev-by {
+  color: var(--color-text-muted);
+  font-weight: 300;
+}
+
+.footer__dev-name {
+  color: var(--color-accent);
+  font-weight: 600;
+  font-style: italic;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer__dev-link:hover .footer__dev-name {
+  text-shadow: 0 0 20px rgba(201, 169, 98, 0.5);
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
 /* Decoration */
 .footer__decoration {
   position: absolute;
