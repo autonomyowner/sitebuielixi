@@ -41,6 +41,7 @@ const Navbar = () => {
     { name: 'Cosmétiques', href: '/cosmetiques', isRoute: true },
     { name: 'Huiles', href: '/huiles-essentielles', isRoute: true },
     { name: 'Fruits Secs', href: '/fruits-secs', isRoute: true },
+    { name: 'Colorants', href: '/colorants-additifs', isRoute: true },
     { name: 'Papier Grenade', href: '/papier-grenade', isRoute: true },
   ]
 

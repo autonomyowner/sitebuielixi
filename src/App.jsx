@@ -11,6 +11,7 @@ import HuilesEssentielles from './pages/HuilesEssentielles'
 import FruitsSecs from './pages/FruitsSecs'
 import Confiserie from './pages/Confiserie'
 import PapierGrenade from './pages/PapierGrenade'
+import ColorantsAdditifs from './pages/ColorantsAdditifs'
 
 function HomePage() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="/fruits-secs" element={<FruitsSecs />} />
           <Route path="/confiserie" element={<Confiserie />} />
           <Route path="/papier-grenade" element={<PapierGrenade />} />
+          <Route path="/colorants-additifs" element={<ColorantsAdditifs />} />
         </Routes>
       </main>
 

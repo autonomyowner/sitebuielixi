@@ -25,6 +25,7 @@ const Boutiques = () => {
   }, [])
 
   const boutiques = [
+    // First row: Les Jus, Compléments Bio, Colorants, Fruits Séchés
     {
       id: 1,
       name: "Les Jus",
@@ -45,6 +46,25 @@ const Boutiques = () => {
     },
     {
       id: 3,
+      name: "Colorants & Additifs",
+      subtitle: "Alimentaires Naturels",
+      description: "Colorants et additifs alimentaires 100% naturels. Donnez de la couleur et de la saveur à vos créations culinaires avec nos produits extraits de fruits, légumes et plantes, sans aucun produit chimique.",
+      image: "/Pâtisserie.jpg",
+      accent: "#8B4513",
+      link: "/colorants-additifs",
+    },
+    {
+      id: 4,
+      name: "Fruits Séchés",
+      subtitle: "Douceurs Naturelles",
+      description: "Large gamme de fruits secs pour les desserts, la consommation quotidienne ou les plats du Ramadan. Différents formats à prix compétitifs pour répondre à tous vos besoins.",
+      image: "/Fruits Séchés.jpg",
+      accent: "#C17F59",
+      link: "/fruits-secs",
+    },
+    // Second row: Cosmétiques, Huiles Essentielles, Papier Grenade, Agro Nutrition
+    {
+      id: 5,
       name: "Cosmétiques",
       subtitle: "Beauté Naturelle",
       description: "Collection de cosmétiques à base de grenade : savons anti-inflammatoires et thérapeutiques, henné naturel d'écorce de grenade, soins de la peau aux extraits de grenade, et teintures capillaires aux nuances naturelles. Pour le bien-être de chaque femme.",
@@ -53,31 +73,13 @@ const Boutiques = () => {
       link: "/cosmetiques",
     },
     {
-      id: 4,
+      id: 6,
       name: "Huiles Essentielles",
       subtitle: "Pureté & Raffinement",
       description: "Une collection d'huiles essentielles naturelles et rares à usage nutritionnel, cosmétique et médicinal. Nous nous distinguons par la pureté de nos huiles et nos recommandations personnalisées adaptées à vos préférences et besoins.",
       image: "/oil.jpg",
       accent: "#E8B86D",
       link: "/huiles-essentielles",
-    },
-    {
-      id: 5,
-      name: "Fruits Séchés",
-      subtitle: "Douceurs Naturelles",
-      description: "Large gamme de fruits secs pour les desserts, la consommation quotidienne ou les plats du Ramadan. Différents formats à prix compétitifs pour répondre à tous vos besoins.",
-      image: "/Fruits Séchés.jpg",
-      accent: "#C17F59",
-      link: "/fruits-secs",
-    },
-    {
-      id: 6,
-      name: "Pâtisserie & Colorants",
-      subtitle: "Confiserie Artisanale",
-      description: "Confiserie originale et innovante à la saveur exquise de grenade : gâteaux à la grenade, desserts à la gélatine de grenade, chocolat à la grenade, et colorants alimentaires naturels.",
-      image: "/Pâtisserie.jpg",
-      accent: "#8B4513",
-      link: "/confiserie",
     },
     {
       id: 7,

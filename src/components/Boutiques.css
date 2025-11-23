@@ -76,8 +76,8 @@
 /* Grid */
 .boutiques__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
   position: relative;
   z-index: 1;
 }
@@ -264,31 +264,18 @@
   opacity: 1;
 }
 
-/* Featured Card (First Card) */
-.boutique-card:first-child {
-  grid-column: span 2;
-}
-
-.boutique-card:first-child .boutique-card__image-wrapper {
-  height: 350px;
-}
-
-.boutique-card:first-child .boutique-card__title {
-  font-size: 2rem;
-}
-
-.boutique-card:first-child .boutique-card__description {
-  -webkit-line-clamp: 4;
-}
+/* All cards same size */
 
 /* Responsive */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+  .boutiques__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
   .boutiques__grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .boutique-card:first-child {
-    grid-column: span 2;
   }
 }
 
@@ -296,10 +283,6 @@
   .boutiques__grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-  }
-
-  .boutique-card:first-child {
-    grid-column: span 1;
   }
 
   .boutique-card:first-child .boutique-card__image-wrapper,
