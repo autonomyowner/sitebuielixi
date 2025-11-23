@@ -70,9 +70,20 @@ const LesJus = () => {
       <div className="product-page__grain" aria-hidden="true"></div>
 
       {/* Hero Section */}
-      <section className={`product-hero ${isVisible ? 'product-hero--visible' : ''}`} ref={heroRef}>
+      <section className={`product-hero product-hero--video ${isVisible ? 'product-hero--visible' : ''}`} ref={heroRef}>
+        <div className="product-hero__video-bg">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="product-hero__video"
+          >
+            <source src="/Bio_Elixir_Promotional_Video_Generation.mp4" type="video/mp4" />
+          </video>
+          <div className="product-hero__video-overlay"></div>
+        </div>
         <div className="product-hero__bg">
-          <div className="product-hero__mesh"></div>
           <div className="product-hero__glow product-hero__glow--1"></div>
           <div className="product-hero__glow product-hero__glow--2"></div>
         </div>
