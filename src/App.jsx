@@ -1,10 +1,30 @@
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Boutiques from './components/Boutiques'
 import Footer from './components/Footer'
+import LesJus from './pages/LesJus'
+import Complements from './pages/Complements'
+import Cosmetiques from './pages/Cosmetiques'
+import HuilesEssentielles from './pages/HuilesEssentielles'
+import FruitsSecs from './pages/FruitsSecs'
+import Confiserie from './pages/Confiserie'
+
+function HomePage() {
+  return (
+    <>
+      <Hero />
+      <About />
+      <Boutiques />
+    </>
+  )
+}
 
 function App() {
+  const location = useLocation()
+  const isHomePage = location.pathname === '/'
+
   return (
     <>
       {/* Grain Overlay for texture */}
@@ -15,12 +35,18 @@ function App() {
 
       {/* Main Content */}
       <main>
-        <Hero />
-        <About />
-        <Boutiques />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/les-jus" element={<LesJus />} />
+          <Route path="/complements" element={<Complements />} />
+          <Route path="/cosmetiques" element={<Cosmetiques />} />
+          <Route path="/huiles-essentielles" element={<HuilesEssentielles />} />
+          <Route path="/fruits-secs" element={<FruitsSecs />} />
+          <Route path="/confiserie" element={<Confiserie />} />
+        </Routes>
       </main>
 
-      {/* Footer */}
+      {/* Footer - show on all pages */}
       <Footer />
     </>
   )

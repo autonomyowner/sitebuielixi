@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const location = useLocation()
+  const navigate = useNavigate()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,31 +16,61 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const handleNavClick = (e, href) => {
+    e.preventDefault()
+    setIsMobileMenuOpen(false)
+
+    if (href.startsWith('#')) {
+      // If we're on the home page, scroll to the section
+      if (location.pathname === '/') {
+        const element = document.querySelector(href)
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      } else {
+        // Navigate to home page and then scroll
+        navigate('/' + href)
+      }
+    }
+  }
+
   const navLinks = [
-    { name: 'Accueil', href: '#accueil' },
-    { name: 'À Propos', href: '#apropos' },
-    { name: 'Nos Produits', href: '#boutiques' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Accueil', href: '/', isRoute: true },
+    { name: 'Les Jus', href: '/les-jus', isRoute: true },
+    { name: 'Compléments', href: '/complements', isRoute: true },
+    { name: 'Cosmétiques', href: '/cosmetiques', isRoute: true },
+    { name: 'Huiles', href: '/huiles-essentielles', isRoute: true },
+    { name: 'Fruits Secs', href: '/fruits-secs', isRoute: true },
   ]
 
   return (
     <nav className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container">
-        <a href="#accueil" className="navbar__logo">
+        <Link to="/" className="navbar__logo">
           <span className="navbar__logo-text">Bio</span>
           <span className="navbar__logo-accent">Elixir</span>
-        </a>
+        </Link>
 
         <ul className={`navbar__links ${isMobileMenuOpen ? 'navbar__links--open' : ''}`}>
           {navLinks.map((link, index) => (
             <li key={link.name} style={{ animationDelay: `${index * 0.1}s` }}>
-              <a
-                href={link.href}
-                className="navbar__link"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.name}
-              </a>
+              {link.isRoute ? (
+                <Link
+                  to={link.href}
+                  className="navbar__link"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {link.name}
+                </Link>
+              ) : (
+                <a
+                  href={link.href}
+                  className="navbar__link"
+                  onClick={(e) => handleNavClick(e, link.href)}
+                >
+                  {link.name}
+                </a>
+              )}
             </li>
           ))}
         </ul>

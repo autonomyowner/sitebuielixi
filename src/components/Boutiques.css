@@ -228,6 +228,12 @@
   cursor: pointer;
   transition: all var(--transition-fast);
   padding: 0;
+  text-decoration: none;
+}
+
+.boutique-card__cta:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .boutique-card__cta-arrow {
