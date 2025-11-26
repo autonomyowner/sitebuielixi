@@ -13,21 +13,12 @@ const ColorantsAdditifs = () => {
   const products = [
     {
       id: 1,
-      name: "Colorants Naturels Grenade",
-      description: "Colorants alimentaires extraits de la grenade, offrant des teintes rouges et roses naturelles. Parfaits pour vos pâtisseries, boissons et préparations culinaires.",
-      image: "/Pâtisserie.jpg",
-      features: ["100% naturel", "Teintes rouges", "Sans additifs"],
-      accent: "#A91D3A",
-      tag: "Signature"
-    },
-    {
-      id: 2,
-      name: "Arômes Naturels Grenade",
-      description: "Arômes concentrés de grenade pour parfumer vos créations culinaires. Intensité et authenticité garanties pour une saveur incomparable.",
-      image: "/Pâtisserie1.jpg",
-      features: ["Concentré", "Saveur intense", "Multi-usage"],
-      accent: "#D4A5A5",
-      tag: "Arôme"
+      name: "Colorants Naturels",
+      description: "Colorants naturels extraits de l'écorce de grenade, offrant des teintes rouges profondes et authentiques. Parfaits pour vos pâtisseries, boissons et préparations culinaires. Une alternative saine aux colorants synthétiques.",
+      image: "/collron.jpg",
+      features: ["Extrait d'écorce", "Teintes rouges", "100% naturel"],
+      accent: "#8B3A3A",
+      tag: "Bio Elixir"
     }
   ]
 

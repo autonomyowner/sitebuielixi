@@ -26,7 +26,7 @@ const Complements = () => {
       id: 2,
       name: "Punicalagin",
       description: "Agent antibactérien et anti-inflammatoire naturel extrait de la grenade. Puissant composé polyphénolique reconnu pour ses propriétés thérapeutiques exceptionnelles. Soutient le système immunitaire et combat l'inflammation naturellement.",
-      image: "/Complémentspubicalagin.jpg",
+      image: "/PUNICALAGIN Bio Elixir.jpg",
       price: "4 000 DA",
       quantity: "60 gélules",
       benefits: ["Anti-inflammatoire", "Antibactérien", "Immunité"],
