@@ -19,6 +19,15 @@ const ColorantsAdditifs = () => {
       features: ["Extrait d'écorce", "Teintes rouges", "100% naturel"],
       accent: "#8B3A3A",
       tag: "Bio Elixir"
+    },
+    {
+      id: 2,
+      name: "Punicalagin",
+      description: "Extrait de grenade en poudre concentrée, idéal comme colorant naturel et additif nutritionnel. Offre une teinte rouge intense tout en enrichissant vos préparations avec des propriétés antioxydantes exceptionnelles. Parfait pour la pâtisserie, les boissons et les créations culinaires.",
+      image: "/PUNICALAGIN Bio Elixir.jpg",
+      features: ["Colorant rouge intense", "Antioxydant", "Multi-usage"],
+      accent: "#C5A572",
+      tag: "Premium"
     }
   ]
 
