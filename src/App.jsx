@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Boutiques from './components/Boutiques'
 import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 import LesJus from './pages/LesJus'
 import Complements from './pages/Complements'
 import Cosmetiques from './pages/Cosmetiques'
@@ -52,6 +53,9 @@ function App() {
 
       {/* Footer - show on all pages */}
       <Footer />
+
+      {/* WhatsApp Floating Button */}
+      <WhatsAppButton />
     </>
   )
 }

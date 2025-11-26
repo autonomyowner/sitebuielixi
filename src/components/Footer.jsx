@@ -83,6 +83,12 @@ const Footer = () => {
                 </a>
               </div>
               <div className="footer__contact-item">
+                <span className="footer__contact-label">WhatsApp</span>
+                <a href="https://wa.me/213553666904" target="_blank" rel="noopener noreferrer" className="footer__contact-value">
+                  +213 553 66 69 04
+                </a>
+              </div>
+              <div className="footer__contact-item">
                 <span className="footer__contact-label">Adresse</span>
                 <span className="footer__contact-value">
                   Alger, Batna
