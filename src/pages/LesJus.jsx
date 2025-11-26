@@ -11,6 +11,14 @@ const LesJus = () => {
     window.scrollTo(0, 0)
   }, [])
 
+  const phoneNumber = '213553666904'
+
+  const handleOrderClick = (productName) => {
+    const message = `Bonjour BioElixir, je souhaite commander: ${productName}`
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    window.open(whatsappUrl, '_blank')
+  }
+
   const products = [
     {
       id: 1,
@@ -162,7 +170,10 @@ const LesJus = () => {
                 </div>
 
                 <div className="product-card__footer">
-                  <button className="product-card__btn">
+                  <button
+                    className="product-card__btn"
+                    onClick={() => handleOrderClick(product.name)}
+                  >
                     <span>Commander</span>
                     <span className="product-card__btn-arrow">→</span>
                   </button>

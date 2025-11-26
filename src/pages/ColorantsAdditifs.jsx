@@ -10,6 +10,8 @@ const ColorantsAdditifs = () => {
     window.scrollTo(0, 0)
   }, [])
 
+  const phoneNumber = '213553666904'
+
   const products = [
     {
       id: 1,
@@ -30,6 +32,12 @@ const ColorantsAdditifs = () => {
       tag: "Premium"
     }
   ]
+
+  const handleOrderClick = (productName) => {
+    const message = `Bonjour BioElixir, je souhaite commander: ${productName}`
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    window.open(whatsappUrl, '_blank')
+  }
 
   return (
     <div className="product-page">
@@ -115,7 +123,10 @@ const ColorantsAdditifs = () => {
                 </div>
 
                 <div className="product-card__footer">
-                  <button className="product-card__btn">
+                  <button
+                    className="product-card__btn"
+                    onClick={() => handleOrderClick(product.name)}
+                  >
                     <span>Commander</span>
                     <span className="product-card__btn-arrow">→</span>
                   </button>
