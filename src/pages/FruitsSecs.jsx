@@ -23,7 +23,7 @@ const FruitsSecs = () => {
       id: 1,
       name: "Figues Séchées",
       description: "Figues séchées naturellement, riches en fibres et en minéraux. Un délice méditerranéen pour accompagner vos plats ou déguster seul.",
-      image: "/Fruits Séchés.jpg",
+      image: "/fruite sechet.png",
       formats: ["200g", "400g", "800g"],
       accent: "#6B4423",
       tag: "Naturel"
@@ -32,7 +32,7 @@ const FruitsSecs = () => {
       id: 2,
       name: "Mix Ramadan",
       description: "Assortiment spécial composé pour les soirées du Ramadan. Un mélange équilibré de fruits secs et de noix pour rompre le jeûne en douceur.",
-      image: "/fakya.jpg",
+      image: "/fruite sechet.png",
       formats: ["500g", "1kg", "2kg"],
       accent: "#4A7C59",
       tag: "Spécial"

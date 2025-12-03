@@ -40,7 +40,7 @@ const Boutiques = () => {
       name: "Compléments Bio",
       subtitle: "Oméga-5 & Punicalagin",
       description: "Complément alimentaire d'oméga-5, le plus rare extrait de grenade : 85% d'oméga-5, 12% d'oméga-6 et oméga-9, 3% d'antioxydants naturels. Favorise la circulation sanguine et un rythme cardiaque régulier. Également disponible : Punicalagin, antibactérien et anti-inflammatoire naturel.",
-      image: "/grenagold/Omga-5.png",
+      image: "/punicalagin-new.jpg (2).png",
       accent: "#4A7C59",
       link: "/complements",
     },

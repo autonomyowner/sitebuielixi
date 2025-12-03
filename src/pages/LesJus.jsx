@@ -87,7 +87,7 @@ const LesJus = () => {
             playsInline
             className="product-hero__video"
           >
-            <source src="/Bio_Elixir_Promotional_Video_Generation.mp4" type="video/mp4" />
+            <source src="/grenagold/Design sans titre.mp4" type="video/mp4" />
           </video>
           <div className="product-hero__video-overlay"></div>
         </div>
