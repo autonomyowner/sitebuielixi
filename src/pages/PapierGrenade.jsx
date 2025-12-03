@@ -13,7 +13,7 @@ const PapierGrenade = () => {
   const phoneNumber = '213553666904'
 
   const handleOrderClick = (productName) => {
-    const message = `Bonjour BioElixir, je souhaite commander: ${productName}`
+    const message = `Bonjour Bio GrenaGold, je souhaite commander: ${productName}`
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }

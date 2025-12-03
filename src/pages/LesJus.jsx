@@ -14,7 +14,7 @@ const LesJus = () => {
   const phoneNumber = '213553666904'
 
   const handleOrderClick = (productName) => {
-    const message = `Bonjour BioElixir, je souhaite commander: ${productName}`
+    const message = `Bonjour Bio GrenaGold, je souhaite commander: ${productName}`
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }
@@ -47,7 +47,7 @@ const LesJus = () => {
     },
     {
       id: 3,
-      name: "Jus Elixir Heart",
+      name: "Jus GrenaGold Heart",
       description: "Conçu pour soutenir la santé cardiovasculaire. Riche en antioxydants naturels pour un cœur fort et une circulation optimale.",
       image: "/Jus.jpg",
       volumes: [
@@ -60,7 +60,7 @@ const LesJus = () => {
     },
     {
       id: 4,
-      name: "Jus Youth Elixir",
+      name: "Jus Youth GrenaGold",
       description: "L'élixir de jeunesse à base de grenade et plantes médicinales. Favorise une peau saine, apporte énergie aux sportifs et complète l'alimentation des mères et enfants.",
       image: "/Jus 6.jpg",
       volumes: [

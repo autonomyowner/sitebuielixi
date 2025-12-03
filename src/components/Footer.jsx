@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="footer__brand">
             <a href="#accueil" className="footer__logo">
               <span className="footer__logo-text">Bio</span>
-              <span className="footer__logo-accent">Elixir</span>
+              <span className="footer__logo-accent">GrenaGold</span>
             </a>
             <p className="footer__tagline">
               La puissance de la grenade au service de votre bien-être.
@@ -72,8 +72,8 @@ const Footer = () => {
             <div className="footer__contact-info">
               <div className="footer__contact-item">
                 <span className="footer__contact-label">Email</span>
-                <a href="mailto:contact@bioelixir.com" className="footer__contact-value">
-                  contact@bioelixir.com
+                <a href="mailto:contact@biogrenagold.com" className="footer__contact-value">
+                  contact@biogrenagold.com
                 </a>
               </div>
               <div className="footer__contact-item">
@@ -122,7 +122,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="footer__bottom">
           <div className="footer__copyright">
-            <p>© {currentYear} BioElixir. Tous droits réservés.</p>
+            <p>© {currentYear} Bio GrenaGold. Tous droits réservés.</p>
           </div>
           <div className="footer__legal">
             <a href="#" className="footer__legal-link">Mentions Légales</a>

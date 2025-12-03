@@ -61,11 +61,11 @@ const About = () => {
             </h2>
             <div className="about__text">
               <p>
-                BioElixir révèle la puissance de la grenade à travers une gamme complète
+                Bio GrenaGold révèle la puissance de la grenade à travers une gamme complète
                 et diversifiée, conçue pour répondre à tous vos besoins de bien-être.
               </p>
               <p>
-                Chaque collection BioElixir marie science botanique et raffinement pour
+                Chaque collection Bio GrenaGold marie science botanique et raffinement pour
                 régénérer, nourrir et sublimer naturellement. De nos jus thérapeutiques
                 à nos cosmétiques précieux, nous vous offrons le meilleur de la nature.
               </p>
@@ -93,8 +93,8 @@ const About = () => {
           <div className="about__visual">
             <div className="about__image-container">
               <img
-                src="/Jus.jpg"
-                alt="BioElixir Jus de Grenade"
+                src="/grenagold/Gemini_Generated_Image_9l4ayh9l4ayh9l4a.png"
+                alt="Bio GrenaGold Jus de Grenade"
                 className="about__image"
               />
               <div className="about__image-overlay"></div>

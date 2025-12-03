@@ -23,7 +23,7 @@ const Hero = () => {
           muted
           loop
           playsInline
-          poster="/hero image.jpg"
+          poster="/grenagold/hero image.png"
         >
           <source src="/Video_Prompt_and_Generationhero.mp4" type="video/mp4" />
           {/* Fallback to image if video doesn't load */}
@@ -44,7 +44,7 @@ const Hero = () => {
         </h1>
 
         <p className="hero__description">
-          BioElixir révèle les trésors de la grenade à travers une gamme complète :
+          Bio GrenaGold révèle les trésors de la grenade à travers une gamme complète :
           Jus thérapeutiques, Compléments Bio, Huiles Essentielles, Cosmétiques et bien plus encore.
         </p>
 

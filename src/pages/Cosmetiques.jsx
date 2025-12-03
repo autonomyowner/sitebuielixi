@@ -13,7 +13,7 @@ const Cosmetiques = () => {
   const phoneNumber = '213553666904'
 
   const handleOrderClick = (productName) => {
-    const message = `Bonjour BioElixir, je souhaite commander: ${productName}`
+    const message = `Bonjour Bio GrenaGold, je souhaite commander: ${productName}`
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }
@@ -206,7 +206,7 @@ const Cosmetiques = () => {
       {/* Benefits Section */}
       <section className="benefits-section benefits-section--with-bg">
         <div className="benefits-section__bg-image">
-          <img src="/Cosmétiques pack.jpg" alt="Cosmétiques Bio Elixir" />
+          <img src="/Cosmétiques pack.jpg" alt="Cosmétiques Bio GrenaGold" />
           <div className="benefits-section__bg-overlay"></div>
         </div>
         <div className="benefits-section__container">

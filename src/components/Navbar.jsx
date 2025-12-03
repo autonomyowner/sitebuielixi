@@ -68,7 +68,7 @@ const Navbar = () => {
       <div className="navbar__container">
         <Link to="/" className="navbar__logo">
           <span className="navbar__logo-text">Bio</span>
-          <span className="navbar__logo-accent">Elixir</span>
+          <span className="navbar__logo-accent">GrenaGold</span>
         </Link>
 
         <ul className={`navbar__links ${isMobileMenuOpen ? 'navbar__links--open' : ''}`}>

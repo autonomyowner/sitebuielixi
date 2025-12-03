@@ -20,7 +20,7 @@ const ColorantsAdditifs = () => {
       image: "/collron.jpg",
       features: ["Extrait d'écorce", "Teintes rouges", "100% naturel"],
       accent: "#8B3A3A",
-      tag: "Bio Elixir"
+      tag: "Bio GrenaGold"
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const ColorantsAdditifs = () => {
   ]
 
   const handleOrderClick = (productName) => {
-    const message = `Bonjour BioElixir, je souhaite commander: ${productName}`
+    const message = `Bonjour Bio GrenaGold, je souhaite commander: ${productName}`
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }
