@@ -68,7 +68,7 @@ const Boutiques = () => {
       name: "Cosmétiques",
       subtitle: "Beauté Naturelle",
       description: "Collection de cosmétiques à base de grenade : savons anti-inflammatoires et thérapeutiques, henné naturel d'écorce de grenade, soins de la peau aux extraits de grenade, et teintures capillaires aux nuances naturelles. Pour le bien-être de chaque femme.",
-      image: "/Cosmétiques.jpg",
+      image: "/grenagold/unnamed.jpg",
       accent: "#D4A5A5",
       link: "/cosmetiques",
     },
