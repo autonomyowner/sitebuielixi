@@ -24,7 +24,7 @@ const LesJus = () => {
       id: 1,
       name: "Jus Nature de Grenade",
       description: "Notre jus de grenade pur, 100% naturel et sans additifs. Une explosion de saveurs authentiques pour votre bien-être quotidien.",
-      image: "/Jus.jpg",
+      image: "/grenagold/Gemini_Generated_Image_9l4ayh9l4ayh9l4a.png",
       volumes: [
         { size: "330 ml", price: "90 DA" },
         { size: "1 L", price: "200 DA" },
@@ -37,7 +37,7 @@ const LesJus = () => {
       id: 2,
       name: "Jus Glucose Stability",
       description: "Formulé spécialement pour les personnes diabétiques. Un équilibre parfait entre goût et bienfaits thérapeutiques pour une glycémie stable.",
-      image: "/Jus 6.jpg",
+      image: "/grenagold/Gemini_Generated_Image_9l4ayh9l4ayh9l4a.png",
       volumes: [
         { size: "330 ml", price: "100 DA" },
         { size: "1 L", price: "300 DA" }
@@ -49,7 +49,7 @@ const LesJus = () => {
       id: 3,
       name: "Jus GrenaGold Heart",
       description: "Conçu pour soutenir la santé cardiovasculaire. Riche en antioxydants naturels pour un cœur fort et une circulation optimale.",
-      image: "/Jus.jpg",
+      image: "/grenagold/Gemini_Generated_Image_9l4ayh9l4ayh9l4a.png",
       volumes: [
         { size: "330 ml", price: "100 DA" },
         { size: "1 L", price: "300 DA" },
@@ -62,7 +62,7 @@ const LesJus = () => {
       id: 4,
       name: "Jus Youth GrenaGold",
       description: "L'élixir de jeunesse à base de grenade et plantes médicinales. Favorise une peau saine, apporte énergie aux sportifs et complète l'alimentation des mères et enfants.",
-      image: "/Jus 6.jpg",
+      image: "/grenagold/Gemini_Generated_Image_9l4ayh9l4ayh9l4a.png",
       volumes: [
         { size: "330 ml", price: "150 DA" },
         { size: "1 L", price: "300 DA" },

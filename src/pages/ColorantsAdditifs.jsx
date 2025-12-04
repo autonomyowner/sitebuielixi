@@ -17,7 +17,7 @@ const ColorantsAdditifs = () => {
       id: 1,
       name: "Colorants Naturels",
       description: "Colorants naturels extraits de l'écorce de grenade, offrant des teintes rouges profondes et authentiques. Parfaits pour vos pâtisseries, boissons et préparations culinaires. Une alternative saine aux colorants synthétiques.",
-      image: "/collron.jpg",
+      image: "/grenagold/Gemini_Generated_Image_af16ecaf16ecaf16.png",
       features: ["Extrait d'écorce", "Teintes rouges", "100% naturel"],
       accent: "#8B3A3A",
       tag: "Bio GrenaGold"
@@ -26,7 +26,7 @@ const ColorantsAdditifs = () => {
       id: 2,
       name: "Punicalagin",
       description: "Extrait de grenade en poudre concentrée, idéal comme colorant naturel et additif nutritionnel. Offre une teinte rouge intense tout en enrichissant vos préparations avec des propriétés antioxydantes exceptionnelles. Parfait pour la pâtisserie, les boissons et les créations culinaires.",
-      image: "/PUNICALAGIN Bio Elixir.jpg",
+      image: "/Gemini_Generated_Image_g4i38xg4i38xg4i3.png",
       features: ["Colorant rouge intense", "Antioxydant", "Multi-usage"],
       accent: "#C5A572",
       tag: "Premium"

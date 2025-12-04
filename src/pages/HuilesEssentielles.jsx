@@ -15,7 +15,7 @@ const HuilesEssentielles = () => {
       id: 1,
       name: "Huile de Grenade",
       description: "L'huile essentielle de grenade, rare et précieuse. Riche en acide punicique, elle nourrit la peau en profondeur et possède des propriétés anti-âge remarquables.",
-      image: "/oil.jpg",
+      image: "/photo_2025-12-03_19-57-29 (2).jpg",
       uses: ["Cosmétique", "Nutritionnel", "Médicinal"],
       accent: "#A91D3A",
       tag: "Premium"
@@ -24,7 +24,7 @@ const HuilesEssentielles = () => {
       id: 2,
       name: "Huile d'Argan",
       description: "L'or liquide du Maroc. Huile précieuse aux vertus nourrissantes et protectrices pour la peau et les cheveux. Riche en vitamine E et en acides gras essentiels.",
-      image: "/oil.jpg",
+      image: "/photo_2025-12-03_19-57-29 (2).jpg",
       uses: ["Soin visage", "Soin cheveux", "Massage"],
       accent: "#C9A962",
       tag: "Rare"
@@ -33,7 +33,7 @@ const HuilesEssentielles = () => {
       id: 3,
       name: "Huile de Nigelle",
       description: "La graine bénie aux mille vertus. Huile aux propriétés anti-inflammatoires et immunostimulantes reconnues depuis l'Antiquité pour ses bienfaits thérapeutiques.",
-      image: "/oil.jpg",
+      image: "/photo_2025-12-03_19-57-29 (2).jpg",
       uses: ["Immunité", "Digestion", "Peau"],
       accent: "#2D5016",
       tag: "Ancestral"
@@ -42,7 +42,7 @@ const HuilesEssentielles = () => {
       id: 4,
       name: "Huile de Rose",
       description: "L'essence de la rose de Damas. Une huile exceptionnellement précieuse aux propriétés apaisantes et régénérantes. Le summum du luxe naturel.",
-      image: "/oil.jpg",
+      image: "/photo_2025-12-03_19-57-29 (2).jpg",
       uses: ["Anti-stress", "Régénérant", "Parfum"],
       accent: "#D4A5A5",
       tag: "Luxe"
