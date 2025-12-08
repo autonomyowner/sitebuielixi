@@ -55,7 +55,7 @@ const PapierGrenade = () => {
             playsInline
             className="product-hero__video"
           >
-            <source src="/Cinematic_Product_Video_Generation.mp4" type="video/mp4" />
+            <source src="/paper hero.mp4" type="video/mp4" />
           </video>
           <div className="product-hero__video-overlay"></div>
         </div>

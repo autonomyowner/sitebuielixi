@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import ProductsShowcase from './components/ProductsShowcase'
 import Boutiques from './components/Boutiques'
 import Footer from './components/Footer'
 import LesJus from './pages/LesJus'
@@ -18,6 +19,7 @@ function HomePage() {
     <>
       <Hero />
       <About />
+      <ProductsShowcase />
       <Boutiques />
     </>
   )

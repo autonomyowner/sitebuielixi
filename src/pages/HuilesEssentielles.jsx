@@ -56,9 +56,16 @@ const HuilesEssentielles = () => {
       {/* Hero Section */}
       <section className={`product-hero ${isVisible ? 'product-hero--visible' : ''}`}>
         <div className="product-hero__bg">
-          <div className="product-hero__mesh"></div>
-          <div className="product-hero__glow product-hero__glow--1"></div>
-          <div className="product-hero__glow product-hero__glow--2"></div>
+          <video
+            className="product-hero__video"
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/Generating_Video_From_Image_Description.mp4" type="video/mp4" />
+          </video>
+          <div className="product-hero__video-overlay"></div>
         </div>
 
         <div className="product-hero__content">

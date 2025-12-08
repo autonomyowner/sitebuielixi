@@ -1,0 +1,211 @@
+/* ====================================
+   Products Showcase Section
+   ==================================== */
+
+.products-showcase {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Video Background */
+.products-showcase__video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.products-showcase__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.products-showcase__video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 10, 0.7) 0%,
+    rgba(10, 10, 10, 0.5) 50%,
+    rgba(10, 10, 10, 0.8) 100%
+  );
+}
+
+/* Content */
+.products-showcase__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 900px;
+}
+
+.products-showcase__label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: var(--color-accent);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.products-showcase--visible .products-showcase__label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.products-showcase__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease 0.1s;
+}
+
+.products-showcase--visible .products-showcase__title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.products-showcase__title span {
+  color: var(--color-primary-light);
+  font-style: italic;
+}
+
+.products-showcase__description {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--color-text-secondary);
+  max-width: 650px;
+  margin: 0 auto 2.5rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease 0.2s;
+}
+
+.products-showcase--visible .products-showcase__description {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Categories */
+.products-showcase__categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.products-showcase__category {
+  padding: 0.6rem 1.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+.products-showcase--visible .products-showcase__category {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.products-showcase__category:hover {
+  background: rgba(201, 169, 98, 0.15);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Motto */
+.products-showcase__motto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease 0.5s;
+}
+
+.products-showcase--visible .products-showcase__motto {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.products-showcase__motto-line {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-text-muted), transparent);
+}
+
+.products-showcase__motto-text {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-accent);
+  letter-spacing: 0.05em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .products-showcase {
+    min-height: 70vh;
+  }
+
+  .products-showcase__content {
+    padding: 3rem 1.5rem;
+  }
+
+  .products-showcase__description {
+    font-size: 1rem;
+  }
+
+  .products-showcase__categories {
+    gap: 0.75rem;
+  }
+
+  .products-showcase__category {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  .products-showcase__motto {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .products-showcase__motto-line {
+    width: 40px;
+  }
+}

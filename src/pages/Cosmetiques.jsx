@@ -87,7 +87,7 @@ const Cosmetiques = () => {
             playsInline
             className="product-hero__video"
           >
-            <source src="/Soap_Video_Generation_Request.mp4" type="video/mp4" />
+            <source src="/Design sans titre.mp4" type="video/mp4" />
           </video>
           <div className="product-hero__video-overlay"></div>
         </div>
