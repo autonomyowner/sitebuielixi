@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import LazyVideo from '../components/LazyVideo'
 import './ProductPage.css'
 
 const HuilesEssentielles = () => {
@@ -56,15 +57,14 @@ const HuilesEssentielles = () => {
       {/* Hero Section */}
       <section className={`product-hero ${isVisible ? 'product-hero--visible' : ''}`}>
         <div className="product-hero__bg">
-          <video
+          <LazyVideo
+            src="/Generating_Video_From_Image_Description.mp4"
             className="product-hero__video"
             autoPlay
             muted
             loop
             playsInline
-          >
-            <source src="/Generating_Video_From_Image_Description.mp4" type="video/mp4" />
-          </video>
+          />
           <div className="product-hero__video-overlay"></div>
         </div>
 

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import LazyVideo from './LazyVideo'
 import './ProductsShowcase.css'
 
 const ProductsShowcase = () => {
@@ -39,15 +40,14 @@ const ProductsShowcase = () => {
       ref={sectionRef}
     >
       <div className="products-showcase__video-container">
-        <video
+        <LazyVideo
+          src="/Cinematic_Product_Commercial_Video_Generation.mp4"
           className="products-showcase__video"
           autoPlay
           muted
           loop
           playsInline
-        >
-          <source src="/Cinematic_Product_Commercial_Video_Generation.mp4" type="video/mp4" />
-        </video>
+        />
         <div className="products-showcase__video-overlay"></div>
       </div>
 
